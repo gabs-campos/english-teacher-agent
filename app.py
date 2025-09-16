@@ -210,8 +210,7 @@ def main():
                         'timestamp': time.time()
                     })
                     
-                    # Clear input
-                    st.session_state.user_input = ""
+                    
                     st.rerun()
                     
                 except Exception as e:
